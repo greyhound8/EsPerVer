@@ -23,12 +23,12 @@ public class Contatore {
     }
 
     public void incrementa() {
-        i = var++;
+        i = var+1;
         System.out.println("valore dopo l'incremento " + i);
     }
 
     public void decrementa() {
-        d = var--;
+        d = var-1;
         System.out.println( "valore dopo l'incremento " + d);
     }
 }
